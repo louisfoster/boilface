@@ -44,9 +44,18 @@ To get it up and going and running and building
 6. Engage:
     - Development
         - Open your browser to [localhost:3000](localhost:3000)
+    - Production
+        - Ensure nginx and other stuff is installed on your web server
+        - Ensure your web server is set up correctly (this also means securely)
+        - Ensure your nginx conf file is correct
+        - symlink your nginx conf file to the sites_available directory
+        - restart nginx service
+        - test the website by visiting the appropriate address
 
 
 ## Future plans
 
 - Add test framework and example test
 - Add scripts to make life easier
+- Add better description of tool purposes and why/how/links
+- Add better explanation for prod deployment
