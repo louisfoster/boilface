@@ -28,6 +28,13 @@ This project is meant to be a set of useful basics required to make the developm
     - File watcher + browser reloader, watches files for changes to initiate browser refresh
 
 
+## Useful components
+
+- Navigation Components
+    - Router: simple History API-based router that simply wraps you base app components and gives them access to the route state
+    - Link: provides easy linking that integrates with the Router component
+
+
 ## Running the project
 
 To get it up and going and running and building
@@ -59,3 +66,4 @@ To get it up and going and running and building
 - Add scripts to make life easier
 - Add better description of tool purposes and why/how/links
 - Add better explanation for prod deployment
+- Fix nginx config to work with router component
